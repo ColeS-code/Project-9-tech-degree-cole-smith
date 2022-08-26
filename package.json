@@ -1,0 +1,22 @@
+{
+  "name": "clear",
+  "version": "1.0.0",
+  "description": "A portflio site to showcase the users previous coding projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColeS-code/Project-9-tech-degree-cole-smith.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColeS-code/Project-9-tech-degree-cole-smith/issues"
+  },
+  "homepage": "https://github.com/ColeS-code/Project-9-tech-degree-cole-smith#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
