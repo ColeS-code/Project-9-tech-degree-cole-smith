@@ -1,1 +1,52 @@
- projects: [ ]
+ const projects = [
+
+   {
+      id: '0',
+      project_name: 'Random Quote Generator',
+      description: 'Displays a random quote on screen with set intervals.'
+      technologies: {'HTML', 'CSS', 'Javascript'},
+      live_link:,
+      github_link:,
+      image_urls:  
+   },
+   {
+      id: '1',
+      project_name: 'Interactive Registration Form',
+      description: 'A form that allows input from a user and reacts in real time.',
+      technologies: {'HTML', 'CSS', 'Javascript'},
+      live_link:,
+      github_link:,
+      image_urls:  
+   },
+   {
+      id: '2',
+      project_name: 'Wheel of Fortune Simlulation',
+      description: 'A wheel of fortune-like guessing game.',
+      technologies: {'HTML', 'CSS', 'Javascript'},
+      live_link:,
+      github_link:,
+      image_urls:  
+   },
+   {
+      id: '3',
+      project_name: 'Employee Directory',
+      description: 'a registery of employees along with their contact information.',
+      technologies: {'HTML', 'CSS', 'Javscript'},
+      live_link:,
+      github_link:,
+      image_urls:  
+   },
+   {
+      id: '4',
+      project_name: 'Data Pagination and filtering',
+      description: 'A webpage displaying student names in a directory.',
+      technologies: {'HTML', 'CSS', 'Javascript'},
+      live_link:,
+      github_link:,
+      image_urls:  
+   },
+ ];
+    
+        
+   
+ 
