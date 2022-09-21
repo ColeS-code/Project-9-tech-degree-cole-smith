@@ -6,6 +6,6 @@ app.use(data);
 
 app.use(express.static("public"))
 
-app.get('/index'(req, res) => {
-    
-})
+app.get('/'(req, res) => {
+    res.render()
+});
