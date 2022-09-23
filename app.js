@@ -4,7 +4,9 @@ const data = require('./data');
 const app = express();
 app.use(data);
 
-app.use(express.static("public"))
+app.set('view engine', 'pug');
+
+app.use('/static', express.static("public"))
 
 app.get('/'(req, res) => {
     res.render()
