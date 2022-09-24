@@ -5,9 +5,13 @@ const app = express();
 app.use(data);
 
 app.set('view engine', 'pug');
+app.use('/static', express.static("public"));
 
-app.use('/static', express.static("public"))
 
-app.get('/'(req, res) => {
-    res.render()
+app.get( '/', (req, res) => {
+    res.render('index', {data: data.projects});
+});
+
+app.get('/about', (req, res) => {
+    res.render('about');
 });
