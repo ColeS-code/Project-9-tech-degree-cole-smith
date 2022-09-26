@@ -7,6 +7,7 @@ app.use(data);
 app.set('view engine', 'pug');
 app.use('/static', express.static("public"));
 
+// Routes
 
 app.get( '/', (req, res) => {
     res.render('index', {data: data.projects});
@@ -15,3 +16,21 @@ app.get( '/', (req, res) => {
 app.get('/about', (req, res) => {
     res.render('about');
 });
+
+app.get('/projects/:id', (req, res, next) => {
+
+});
+
+// Error Handlers 
+
+function FOFHandler (req, res, next) {
+    const err = new error();
+    err.status = 404;
+    err.message = 'Oh no! the route you requested does not seem to exist.';
+    console.log(err.status, err.message);
+    next(err);
+}
+
+function generalHandler (err, req, res, next) {
+    
+}
