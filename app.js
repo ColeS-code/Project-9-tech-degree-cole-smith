@@ -32,5 +32,13 @@ function FOFHandler (req, res, next) {
 }
 
 function generalHandler (err, req, res, next) {
-    
+    if (!err.status || !err.message) {
+        err.status = 500;
+        err.message = 'Aw, a problem has occured on the server-side.'
+        console.log(err.message, err.status);
+    }
+    res.status(err.status).send(err.message);
 }
+app.use(FOFHandler);
+app.use(generalHandler);
+
