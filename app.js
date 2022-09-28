@@ -18,7 +18,16 @@ app.get('/about', (req, res) => {
 });
 
 app.get('/projects/:id', (req, res, next) => {
-
+    const projectId = req.params.id;
+    if (data.projects[projectId]) {
+        res.render('project', {data: data.projects[projectId]});
+    } else {
+        const err = new Error();
+        err.status = 404;
+        err.message = 'oh shoot, the project you are requestiong does not seem to exist!'
+        console.log(err.status, err.message);
+        next(err);
+    }
 });
 
 // Error Handlers 
@@ -42,3 +51,7 @@ function generalHandler (err, req, res, next) {
 app.use(FOFHandler);
 app.use(generalHandler);
 
+
+app.listen(3000, () => {
+    console.log('app is running on local port 3000')
+});
