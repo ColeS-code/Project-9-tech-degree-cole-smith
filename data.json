@@ -1,5 +1,5 @@
  
- const projects = [
+  projects = [
 
    {
       id: '0',
