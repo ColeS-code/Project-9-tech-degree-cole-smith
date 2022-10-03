@@ -1,53 +1,53 @@
- 
-  projects = [
+{
+  "projects": [
 
    {
-      id: '0',
-      project_name: 'Random Quote Generator',
-      description: 'Displays a random quote on screen with set intervals.'
-      technologies: {'HTML', 'CSS', 'Javascript'},
-      live_link: https://coles-code.github.io/project-4-cole-smith/, 
-      github_link: https://github.com/ColeS-code/project-4-cole-smith,
-      image_urls: , 
+      "id": 0,
+      "project_name": "Random Quote Generator",
+      "description": "Displays a random quote on screen with set intervals.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://coles-code.github.io/project-4-cole-smith/", 
+      "github_link": "https://github.com/ColeS-code/project-4-cole-smith",
+      "image_urls": , 
    },
    {
-      id: '1',
-      project_name: 'Interactive Registration Form',
-      description: 'A form that allows input from a user and reacts in real time.',
-      technologies: {'HTML', 'CSS', 'Javascript'},
-      live_link: https://coles-code.github.io/Interactive-Registration-Webform-Cole-smith/,
-      github_link: https://github.com/ColeS-code/Interactive-Registration-Webform-Cole-smith,
-      image_urls: , 
+      "id": 1,
+      "project_name": "Interactive Registration Form",
+      "description": "A form that allows input from a user and reacts in real time.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://coles-code.github.io/Interactive-Registration-Webform-Cole-smith/",
+      "github_link": "https://github.com/ColeS-code/Interactive-Registration-Webform-Cole-smith",
+      "image_urls": , 
    },
    {
-      id: '2',
-      project_name: 'Wheel of Fortune Simulation',
-      description: 'A wheel of fortune-like guessing game.',
-      technologies: {'HTML', 'CSS', 'Javascript'},
-      live_link: https://coles-code.github.io/Cole-Smith-Techde-Project-5/,
-      github_link: https://github.com/ColeS-code/Cole-Smith-Techde-Project-5,
-      image_urls: , 
+      "id": 2,
+      "project_name": "Wheel of Fortune Simulation",
+      "description": "A wheel of fortune-like guessing game.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://coles-code.github.io/Cole-Smith-Techde-Project-5/",
+      "github_link": "https://github.com/ColeS-code/Cole-Smith-Techde-Project-5",
+      "image_urls": , 
    },
    {
-      id: '3',
-      project_name: 'Employee Directory',
-      description: 'a registery of employees along with their contact information.',
-      technologies: {'HTML', 'CSS', 'Javscript'},
-      live_link: https://coles-code.github.io/Project-8---Employee-Directory/,
-      github_link: https://github.com/ColeS-code/Project-8---Employee-Directory,
-      image_urls:,  
+      "id": 3,
+      "project_name": "Employee Directory",
+      "description": "a registery of employees along with their contact information.",
+      "technologies": ["HTML", "CSS", "Javscript"],
+      "live_link": "https://coles-code.github.io/Project-8---Employee-Directory/",
+      "github_link": "https://github.com/ColeS-code/Project-8---Employee-Directory",
+      "image_urls":,  
    },
    {
-      id: '4',
-      project_name: 'Data Pagination and filtering',
-      description: 'A webpage displaying student names in a directory.',
-      technologies: {'HTML', 'CSS', 'Javascript'},
-      live_link: https://coles-code.github.io/Data-Pagination-and-filtering-webform-proj-6/,
-      github_link: https://github.com/ColeS-code/Data-Pagination-and-filtering-webform-proj-6,
-      image_urls:, 
+      "id": 4,
+      "project_name": "Data Pagination and filtering",
+      "description": "A webpage displaying student names in a directory.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "live_link": "https://coles-code.github.io/Data-Pagination-and-filtering-webform-proj-6/",
+      "github_link": "https://github.com/ColeS-code/Data-Pagination-and-filtering-webform-proj-6",
+      "image_urls":, 
    },
  ]
-    
+}   
         
    
  
