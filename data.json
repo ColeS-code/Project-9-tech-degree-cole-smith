@@ -8,7 +8,10 @@
       "technologies": ["HTML", "CSS", "Javascript"],
       "live_link": "https://coles-code.github.io/project-4-cole-smith/", 
       "github_link": "https://github.com/ColeS-code/project-4-cole-smith",
-      "image_urls": , 
+      "image_urls": [
+         "/static/images/random-quote/main-img.png",
+         "/static/images/random-quote/additional-img.png"
+      ] 
    },
    {
       "id": 1,
@@ -17,7 +20,10 @@
       "technologies": ["HTML", "CSS", "Javascript"],
       "live_link": "https://coles-code.github.io/Interactive-Registration-Webform-Cole-smith/",
       "github_link": "https://github.com/ColeS-code/Interactive-Registration-Webform-Cole-smith",
-      "image_urls": , 
+      "image_urls": [
+         "/static/images/registration-form/main-img.png",
+         "/static/images/registration-form/additional-img.png"
+      ] 
    },
    {
       "id": 2,
@@ -26,7 +32,10 @@
       "technologies": ["HTML", "CSS", "Javascript"],
       "live_link": "https://coles-code.github.io/Cole-Smith-Techde-Project-5/",
       "github_link": "https://github.com/ColeS-code/Cole-Smith-Techde-Project-5",
-      "image_urls": , 
+      "image_urls": [
+         "/static/images/word-guessing-game/main-img.png",
+         "/static/images/word-guessing-game/additional-img.png"
+      ] 
    },
    {
       "id": 3,
@@ -35,7 +44,10 @@
       "technologies": ["HTML", "CSS", "Javscript"],
       "live_link": "https://coles-code.github.io/Project-8---Employee-Directory/",
       "github_link": "https://github.com/ColeS-code/Project-8---Employee-Directory",
-      "image_urls":,  
+      "image_urls": [
+         "/static/images/employee-directory/main-img.png",
+         "/static/images/employee-directory/additional-img.png"
+      ] 
    },
    {
       "id": 4,
@@ -44,8 +56,10 @@
       "technologies": ["HTML", "CSS", "Javascript"],
       "live_link": "https://coles-code.github.io/Data-Pagination-and-filtering-webform-proj-6/",
       "github_link": "https://github.com/ColeS-code/Data-Pagination-and-filtering-webform-proj-6",
-      "image_urls":, 
-   },
+      "image_urls": [
+         "/static/images/responsive-form/main-img.png"
+      ]
+   }
  ]
 }   
         
