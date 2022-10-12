@@ -14,21 +14,21 @@ block content
         
 
         
-        h1 data.project_name
+        h1 #{data.project_name}
 
         
-        p data.description
+        p #{data.description}
 
       .project-tech-links-box.box
         h6 Technologies
         ul
 
           
-          each technology in data.technology
+          each technology in data.technologies
             li= technology
         
-        a.btn-link(href= data.live_link target = 'blank') Live Demo
-        a.btn-link(href= data.github_link target = 'blank') GitHub Repo
+            a.btn-link(href= data.live_link target = 'blank') Live Demo
+            a.btn-link(href= data.github_link target = 'blank') GitHub Repo
 
     .project-img-box.box
 
